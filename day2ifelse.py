@@ -16,5 +16,16 @@ age=int(input("Enter a Age:"))
 if age>=18:
     print("You are Elgible For VOting")
 else:
-    print("You are Not Eligble For Voting")     
-    
+    print("You are Not Eligble For Voting") 
+    #
+year=int(input("Enter a Year:"))
+if year%4==0:
+    if year%100==0:
+        if year%400==0:
+            print("Leap Year")
+        else:
+            print("Not a Leap Year")
+    else:
+        print("Not a Leap Year")
+else:
+     print("Not a Leap Year")
