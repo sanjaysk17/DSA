@@ -11,3 +11,9 @@ sum=0
 for i in range(num):
     sum=sum+i
 print(f"The sum of {num} number is {sum}")
+#Patterns
+n=int(input("Number:"))
+for i in range(1,n,1):
+    for i in range(0,i):
+        print("*",end=' ')
+    print()
